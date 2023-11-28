@@ -1,0 +1,161 @@
+body {
+    font-family: sans-serif;
+    color: darkslategray;
+}
+
+.heading {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+ font-family: cursive;
+ font-weight: bolder;
+ font-size: 2.875rem;
+ margin-right: 45%;
+}
+
+a {
+   font-size: 1.25rem;
+    color: blue;
+    text-decoration: underline;
+    margin-right: 1%;
+}
+
+.about-me {
+    display: inline-flex;
+    justify-content: center;
+}
+
+h2 {
+ font-size: 1.875rem;
+ text-align: center;
+}
+
+.para {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
+.me {
+ width: 15%;
+ height: 30%;
+}
+
+li {
+list-style: none;
+line-height: 480%;
+font-size: 1.25rem;
+letter-spacing: 5px;
+font-weight: bolder;
+text-align: center;
+}
+
+.ssa {
+    width: 200px;
+    height: 150px;
+    margin-right: 5%;
+}
+
+.ssa-p {
+    display: inline-flex;
+    text-align: center;
+}
+
+.kicks {
+    width: 200px;
+    height: 150px;
+    margin-right: 17%;
+}
+
+.kicks-p {
+    display: inline-flex;
+    text-align: center;
+}
+
+.tea {
+    width: 200px;
+    height: 150px;
+    margin-right: 26%;
+}
+
+.tea-p {
+    display: inline-flex;
+    text-align: center;
+}
+
+h3 {
+ font-weight: bold;
+ font-size: 1.875rem;
+ text-align: center;
+ margin-left: 2%;
+}
+
+.logos {
+ display: inline-flex;
+ width: 100%;
+ justify-content: center;
+}
+
+ h4 {
+    text-align: center;
+ }
+
+ #logo-1, #logo-2, #logo-3, #logo-4 {
+    width: 45px;
+    height: 55px;
+    margin-left: 1%;
+ }
+
+ .logos-2 {
+    display: inline-flex;
+    width: 95%;
+    justify-content: center;
+ }
+
+#logo-5 {
+    width: 40px;
+    height: 45px;
+    margin-left: 40%;
+}
+
+#logo-6, #logo-7 {
+    width: 35px;
+    height: 40px;
+    margin-left: 40%;
+}
+
+.name {
+    position: relative;
+    right: 20%;
+    font-size: 30px;
+}
+
+#home {
+    font-size: 1.25rem;
+    color: blue;
+    margin-left: 85%;
+}
+
+#contact {
+    font-size: 1.875rem;
+    margin-right: 3%;
+}
+
+#arrow {
+    width: 15%;
+    height: 25%;
+    position: relative;
+    left: 41%;
+    top: 15%;
+    margin-bottom: 5%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .click {
+        font-size: medium;
+    }
+}
